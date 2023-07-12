@@ -1,0 +1,6 @@
+- Activity 简介：Activity 是 Android 应用的关键组件，它负责与用户交互和展示应用界面¹。
+- Activity 的生命周期：Activity 有四种状态（运行、暂停、停止、销毁）和七个回调方法（onCreate、onStart、onResume、onPause、onStop、onRestart、onDestroy），它们之间的转换遵循一定的规则¹。
+- Activity 的启动模式：Activity 有四种启动模式（standard、singleTop、singleTask、singleInstance），它们影响着 Activity 在任务栈中的创建和重用方式¹。
+- Activity 的通信方式：Activity 之间可以通过 Intent 和 Bundle 传递数据，也可以通过 startActivityForResult 和 onActivityResult 获取返回结果¹。
+- Activity 的窗口管理：Activity 的视图是通过 Window 和 DecorView 来展示的，Window 是一个抽象类，DecorView 是一个 FrameLayout，开发者设置的布局会被添加到 DecorView 的子布局中²。
+- Activity 的后台启动：Activity 通常不能在后台直接启动，需要满足一定的条件或者使用一些技巧，例如 moveTaskToFront 方法或者 NotificationManager 类³
